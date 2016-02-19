@@ -1,0 +1,173 @@
+body{
+  margin-top: 10px;
+  padding: 0;
+}
+
+
+  .wrapper {
+    margin: 0 auto;
+    width: 1400px;
+
+    header {
+      background-image: url("../../www/image/header/header-bg.png");
+      margin: 0 auto;
+      padding-bottom: 100px;
+      border-bottom-left-radius: 67px;
+      border-bottom-right-radius: 67px;
+      margin-bottom: 79px;
+
+      img {
+        float: left;
+        margin-top: 39px;
+        margin-left: 109px;
+        margin-right: 121px;
+      }
+      .menu {
+        padding-top: 65px;
+        a {
+          font-family: 'Merriweather Bold', serif;
+          font-size: 15px;
+          text-decoration: none;
+          color: white;
+          margin-right: 44px;
+        }
+        .tel-num {
+          font-family: 'Merriweather Heavy', serif;
+          font-size: 20px;
+          color: white;
+        }
+
+      }
+      .title {
+        margin-top: 97px;
+        margin-left: 108px;
+        font-family: 'Merriweather Bold', serif;
+        font-size: 47px;
+        color: white;
+      }
+      .bottom {
+        width: 281px;
+        height: 46px;
+        border-radius: 10px;
+        background-color: #ef4a3b;
+        text-align: center;
+        margin-top: 72px;
+        margin-left: 109px;
+        padding-top: 15px;
+
+        a {
+          font-family: 'Merriweather Bold', serif;
+          font-size: 20px;
+          color: white;
+          text-decoration: none;
+        }
+
+      }
+    }
+    section{
+      background-color: #efefef;
+      border-bottom-left-radius: 67px;
+      border-bottom-right-radius: 67px;
+    }
+    .panel-section {
+      width: 1200px;
+      margin: 0 auto;
+
+      height: 1250px;
+
+      .panel {
+        width: 380px;
+        height: 500px;
+        border-radius: 10px;
+        float: left;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 71px;
+        .head {
+          position: relative;
+          color: white;
+          font-family: 'Merriweather Bold', serif;
+          font-size: 24px;
+          top: -238px;
+          padding-left: 19px;
+        }
+        .date {
+          position: relative;
+          color: white;
+          font-family: 'Merriweather Regular', serif;
+          font-size: 12px;
+          top: -236px;
+          padding-left: 19px;
+        }
+        .panel_hr {
+          width: 180px;
+          position: relative;
+          color: white;
+          top: -238px;
+          left: -80px;
+        }
+        .content {
+          font-family: 'Merriweather Regular', serif;
+          font-size: 14px;
+          color: #2c3035;
+          margin-top: -48px;
+          line-height: 1.9;
+        }
+
+      }
+      .hr_bottom {
+        float: left;
+        width: 1190px;
+        color: #c8c9ca;
+        margin-top: -33px;
+
+      }
+    }
+    .btn-more_info {
+      float: left;
+      position: relative;
+      left: 505px;
+      margin: 0 auto;
+      text-align: center;
+      bottom: -16px;
+    }
+
+
+    footer{
+      img{
+        margin-top: -110px;
+      }
+      a{
+        position: relative;
+        top: -192px;
+        left: 566px;
+      }
+      .menu_footer{
+        position: relative;
+        bottom: -99px;
+        left: -92px;
+        a{
+          font-family: 'Merriweather Regular', serif;
+          font-size: 14px;
+          text-decoration: none;
+          color: #2c3035;
+          margin-right: 15px;
+        }
+
+
+      }
+
+
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
