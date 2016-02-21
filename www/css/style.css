@@ -4,45 +4,45 @@ body { margin-top: 10px; padding: 0; }
 /* line 5, ../../src/scss/style.scss */
 .wrapper { margin: 0 auto; width: 1400px; background-color: #efefef; }
 /* line 9, ../../src/scss/style.scss */
-.wrapper header { background-image: url("../../www/image/header/header-bg.png"); margin: 0 auto; padding-bottom: 100px; border-bottom-left-radius: 67px; border-bottom-right-radius: 67px; margin-bottom: 79px; }
-/* line 16, ../../src/scss/style.scss */
+.wrapper header { background-image: url("../../www/image/header/header-bg.png"); margin: 0 auto; padding-bottom: 100px; border-bottom-left-radius: 67px; -webkit-border-bottom-left-radius: 67px; -moz-border-radius-bottomleft: 67px; border-bottom-right-radius: 67px; -webkit-border-bottom-right-radius: 67px; -moz-border-radius-bottomright: 67px; margin-bottom: 79px; }
+/* line 20, ../../src/scss/style.scss */
 .wrapper header img { float: left; margin-top: 39px; margin-left: 109px; margin-right: 121px; }
-/* line 22, ../../src/scss/style.scss */
+/* line 26, ../../src/scss/style.scss */
 .wrapper header .menu { padding-top: 65px; }
-/* line 24, ../../src/scss/style.scss */
+/* line 28, ../../src/scss/style.scss */
 .wrapper header .menu a { font-family: 'Merriweather Bold', serif; font-size: 15px; text-decoration: none; color: white; margin-right: 44px; }
-/* line 31, ../../src/scss/style.scss */
+/* line 35, ../../src/scss/style.scss */
 .wrapper header .menu .tel-num { font-family: 'Merriweather Heavy', serif; font-size: 20px; color: white; }
-/* line 37, ../../src/scss/style.scss */
+/* line 41, ../../src/scss/style.scss */
 .wrapper header .title { margin-top: 97px; margin-left: 108px; font-family: 'Merriweather Bold', serif; font-size: 47px; color: white; margin-bottom: 30px; }
-/* line 45, ../../src/scss/style.scss */
+/* line 49, ../../src/scss/style.scss */
 .wrapper header .btn-head { margin-left: -3px; margin-bottom: 133px; }
-/* line 50, ../../src/scss/style.scss */
-.wrapper section { border-bottom-left-radius: 67px; border-bottom-right-radius: 67px; }
 /* line 54, ../../src/scss/style.scss */
+.wrapper section { border-bottom-left-radius: 67px; -webkit-border-bottom-left-radius: 67px; -moz-border-radius-bottomleft: 67px; border-bottom-right-radius: 67px; -webkit-border-bottom-right-radius: 67px; -moz-border-radius-bottomright: 67px; }
+/* line 62, ../../src/scss/style.scss */
 .wrapper .panel-section { width: 1200px; margin: 0 auto; overflow: hidden; }
-/* line 58, ../../src/scss/style.scss */
-.wrapper .panel-section .panel { width: 380px; height: 500px; border-radius: 10px; float: left; margin-right: 10px; margin-left: 10px; margin-bottom: 71px; }
 /* line 66, ../../src/scss/style.scss */
+.wrapper .panel-section .panel { width: 380px; height: 500px; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; float: left; margin-right: 10px; margin-left: 10px; margin-bottom: 71px; }
+/* line 76, ../../src/scss/style.scss */
 .wrapper .panel-section .panel .head { position: relative; color: white; font-family: 'Merriweather Bold', serif; font-size: 24px; top: -236px; padding-left: 19px; }
-/* line 74, ../../src/scss/style.scss */
+/* line 84, ../../src/scss/style.scss */
 .wrapper .panel-section .panel .date { position: relative; color: white; font-family: 'Merriweather Regular', serif; font-size: 12px; top: -236px; padding-left: 19px; }
-/* line 82, ../../src/scss/style.scss */
+/* line 92, ../../src/scss/style.scss */
 .wrapper .panel-section .panel .panel_hr { width: 180px; position: relative; color: white; top: -240px; left: -80px; }
-/* line 89, ../../src/scss/style.scss */
+/* line 99, ../../src/scss/style.scss */
 .wrapper .panel-section .panel .content { font-family: 'Merriweather Regular', serif; font-size: 14px; color: #2c3035; margin-top: -48px; line-height: 1.9; }
-/* line 97, ../../src/scss/style.scss */
+/* line 107, ../../src/scss/style.scss */
 .wrapper .panel-section .hr_bottom { float: left; width: 1190px; color: #c8c9ca; margin-top: -33px; }
-/* line 104, ../../src/scss/style.scss */
+/* line 114, ../../src/scss/style.scss */
 .wrapper .btn-more_info { float: left; position: relative; left: 506px; bottom: -17px; margin-bottom: 8px; }
 
-/* line 112, ../../src/scss/style.scss */
+/* line 122, ../../src/scss/style.scss */
 footer { margin: 0 auto; width: 1400px; background-image: url("../../www/image/footer/footer-bg.png"); height: 620px; margin-top: -64px; }
-/* line 118, ../../src/scss/style.scss */
+/* line 128, ../../src/scss/style.scss */
 footer a { position: relative; top: 376px; left: 566px; }
-/* line 123, ../../src/scss/style.scss */
+/* line 133, ../../src/scss/style.scss */
 footer .menu_footer { margin-top: 99px; margin-left: -93px; }
-/* line 126, ../../src/scss/style.scss */
+/* line 136, ../../src/scss/style.scss */
 footer .menu_footer a { font-family: 'Merriweather Regular', serif; font-size: 14px; text-decoration: none; color: #2c3035; margin-right: 15px; }
 
 /*# sourceMappingURL=style.css.map */
