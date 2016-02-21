@@ -2,13 +2,10 @@ body{
   margin-top: 10px;
   padding: 0;
 }
-
-
   .wrapper {
     margin: 0 auto;
     width: 1400px;
     background-color: #efefef;
-
     header {
       background-image: url("../../www/image/header/header-bg.png");
       margin: 0 auto;
@@ -16,7 +13,6 @@ body{
       border-bottom-left-radius: 67px;
       border-bottom-right-radius: 67px;
       margin-bottom: 79px;
-
       img {
         float: left;
         margin-top: 39px;
@@ -37,7 +33,6 @@ body{
           font-size: 20px;
           color: white;
         }
-
       }
       .title {
         margin-top: 97px;
@@ -47,40 +42,19 @@ body{
         color: white;
         margin-bottom: 30px;
       }
-//      .bottom {
-//        width: 281px;
-//        height: 46px;
-//        border-radius: 10px;
-//        background-color: #ef4a3b;
-//        text-align: center;
-//        margin-top: 72px;
-//        margin-left: 109px;
-//        padding-top: 15px;
-//
-//        a {
-//          font-family: 'Merriweather Bold', serif;
-//          font-size: 20px;
-//          color: white;
-//          text-decoration: none;
-//        }
-//
-//      }
       .btn-head{
         margin-left: -3px;
         margin-bottom: 133px;
       }
     }
     section{
-      background-color: #efefef;
       border-bottom-left-radius: 67px;
       border-bottom-right-radius: 67px;
     }
     .panel-section {
       width: 1200px;
       margin: 0 auto;
-
-      height: 1250px;
-
+      overflow: hidden;
       .panel {
         width: 380px;
         height: 500px;
@@ -119,37 +93,36 @@ body{
           margin-top: -48px;
           line-height: 1.9;
         }
-
       }
       .hr_bottom {
         float: left;
         width: 1190px;
         color: #c8c9ca;
         margin-top: -33px;
-
       }
     }
     .btn-more_info {
       float: left;
       position: relative;
       left: 506px;
-       bottom: -17px;
+      bottom: -17px;
+      margin-bottom: 8px;
     }
-
-
-    footer{
-      img{
-        margin-top: -110px;
-      }
+  }
+footer{
+      margin: 0 auto;
+      width: 1400px;
+      background-image: url("../../www/image/footer/footer-bg.png");
+      height: 620px;
+      margin-top: -64px;
       a{
         position: relative;
-        top: -192px;
+        top: 376px;
         left: 566px;
       }
       .menu_footer{
-        position: relative;
-        bottom: -99px;
-        left: -92px;
+          margin-top: 99px;
+          margin-left: -93px;
         a{
           font-family: 'Merriweather Regular', serif;
           font-size: 14px;
@@ -157,14 +130,8 @@ body{
           color: #2c3035;
           margin-right: 15px;
         }
-
-
       }
-
-
     }
-  }
-
 
 
 
