@@ -39,10 +39,13 @@ body { margin-top: 10px; padding: 0; }
 /* line 122, ../../src/scss/style.scss */
 footer { margin: 0 auto; width: 1400px; background-image: url("../../www/image/footer/footer-bg.png"); height: 620px; margin-top: -64px; }
 /* line 128, ../../src/scss/style.scss */
-footer a { position: relative; top: 376px; left: 566px; }
+footer .btn_footer { position: relative; top: 376px; left: 566px; }
 /* line 133, ../../src/scss/style.scss */
 footer .menu_footer { margin-top: 99px; margin-left: -93px; }
 /* line 136, ../../src/scss/style.scss */
-footer .menu_footer a { font-family: 'Merriweather Regular', serif; font-size: 14px; text-decoration: none; color: #2c3035; margin-right: 15px; }
+footer .menu_footer a { font-family: 'Merriweather Regular', serif; font-size: 14px; text-decoration: none; color: #2c3035; margin-right: 15px; position: relative; top: 376px; left: 566px; }
+
+/* line 148, ../../src/scss/style.scss */
+.clearfix::after { content: ''; display: table; clear: both; }
 
 /*# sourceMappingURL=style.css.map */

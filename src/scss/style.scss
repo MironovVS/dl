@@ -125,11 +125,11 @@ footer{
       background-image: url("../../www/image/footer/footer-bg.png");
       height: 620px;
       margin-top: -64px;
-      a{
-        position: relative;
+      .btn_footer{
+         position: relative;
         top: 376px;
         left: 566px;
-      }
+        }
       .menu_footer{
           margin-top: 99px;
           margin-left: -93px;
@@ -139,12 +139,17 @@ footer{
           text-decoration: none;
           color: #2c3035;
           margin-right: 15px;
+          position: relative;
+        top: 376px;
+        left: 566px;
         }
       }
     }
-
-
-
+.clearfix::after {
+    content:'';
+    display:table;
+    clear:both;
+}
 
 
 
